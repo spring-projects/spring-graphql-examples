@@ -4,15 +4,17 @@ GraphQL over WebSocket with an authentication token passed through the `"connect
 
 # Configuration
 
-The `WebMvcSecurityConfig` and `WebFluxSecurityConfig` configure the `AuthenticationWebSocketInterceptor`
-required to perform the authentication. 
+[WebMvcSecurityConfig](src/main/java/com/example/greeting/WebMvcSecurityConfig) and 
+[WebFluxSecurityConfig](src/main/java/com/example/greeting/WebFluxSecurityConfig) configure the
+`AuthenticationWebSocketInterceptor` to perform authentication. See the
+[reference docs](https://docs.spring.io/spring-graphql/reference/transports.html#server.interception.websocket).
 
 To switch between WebMvc or WebFlux as the transport, comment in and out
 `spring-boot-starter-web` and `spring-boot-starter-websocket` in build.gradle.
 
 # Running
 
-1. Run `GreetingApplication` from your IDE, or `./gradlew bootRun` from the command line to start the server.
-2. Run `GreetingClient`, or `./gradlew clientRun` to execute a subscription.
+1. Run [GreetingApplication](src/main/java/com/example/greeting/GreetingApplication) from your IDE, or `./gradlew bootRun` from the command line to start the server.
+2. Run [GreetingClient](src/main/java/com/example/greeting/GreetingClient), or `./gradlew clientRun` to perform a subscription.
 
-Or you can run the integration tests in `GreetingApplicationTests`.
+Or you can run the integration tests in [GreetingApplicationTests](src/test/java/com/example/greeting/GreetingApplicationTests).
