@@ -7,9 +7,7 @@ Repository that hosts [Spring for GraphQL](https://github.com/spring-projects/sp
 
 - [websocket-authentication](websocket-authentication)
 
-# Getting Started Guides
-
-The following guides are available on https://spring.io:
+# Guides on spring.io
 
 * [Building a GraphQL service](https://spring.io/guides/gs/graphql-server/)
 * [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
