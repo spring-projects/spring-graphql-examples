@@ -1,6 +1,17 @@
 # Overview
 
-GraphQL over WebSocket with an authentication token passed through the `"connection_init"` message.
+GraphQL over WebSocket with authentication through the `"connection_init"` message.
+[GreetingController](src/main/java/com/example/greeting/GreetingController.java) demonstrates
+access to the authenticated user.
+
+# Features
+
+- WebSocket client and server.
+- Intercept `"connection_init"` message on client and server.
+- Encode and decode JWT token.
+- Context propagation and access to `Authentication` in [GreetingController](src/main/java/com/example/greeting/GreetingController.java).
+- Integration tests with live server.
+- WebMvc or WebFlux as server transport.
 
 # Configuration
 
