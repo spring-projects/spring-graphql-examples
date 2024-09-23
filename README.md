@@ -10,7 +10,7 @@ Repository that hosts [Spring for GraphQL](https://github.com/spring-projects/sp
 # Guides on spring.io
 
 * [Building a GraphQL service](https://spring.io/guides/gs/graphql-server/)
-* [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
+* [Observing GraphQL in action](https://spring.io/guides/topicals/observing-graphql-in-action)
 
 # Community Samples
 
