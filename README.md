@@ -22,3 +22,4 @@ Repository that hosts [Spring for GraphQL](https://github.com/spring-projects/sp
   sample for the [multipart-spring-graphql](https://github.com/nkonev/multipart-spring-graphql) library.
 - [PetClinic](https://github.com/spring-petclinic/spring-petclinic-graphql) --
   in-depth sample with Spring for GraphQL and a single-page frontend.
+- [Multiple GraphQL Endpoints](https://github.com/codesnippe/multiple-graphql-endpoints-demo) -- the Boot auto-config is for a single GraphQL endpoint, but if you need multiple endpoints in the same JVM you'll need your own [standalone setup](https://docs.spring.io/spring-graphql/reference/standalone-setup.html).
